@@ -4,270 +4,165 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Junnel Fuentes | AI & Automation Specialist</title>
-
+<meta name="description" content="AI and Automation portfolio featuring business systems, workflows, integrations, APIs, webhooks, databases and AI-assisted processes.">
 <style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #07111f;
-  color: #f4f7fb;
-  line-height: 1.6;
-}
-
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
-}
-
-nav {
-  padding: 25px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-nav a {
-  color: #a9b8ca;
-  text-decoration: none;
-  margin-left: 20px;
-}
-
-.hero {
-  padding: 100px 0 80px;
-}
-
-.label {
-  color: #55a8ff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-h1 {
-  font-size: clamp(42px, 7vw, 76px);
-  line-height: 1.05;
-  margin: 15px 0 25px;
-}
-
-.highlight {
-  color: #5aaaff;
-}
-
-.hero p {
-  color: #a9b8ca;
-  font-size: 20px;
-  max-width: 780px;
-}
-
-.buttons {
-  margin-top: 30px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 13px 22px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.primary {
-  background: white;
-  color: #07111f;
-}
-
-.secondary {
-  border: 1px solid #29415d;
-  color: white;
-}
-
-section {
-  padding: 65px 0;
-}
-
-h2 {
-  font-size: 34px;
-  margin-bottom: 12px;
-}
-
-.intro {
-  color: #9eafc3;
-  max-width: 720px;
-  margin-bottom: 30px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-.card {
-  background: #0d1c2e;
-  border: 1px solid #20344d;
-  padding: 27px;
-  border-radius: 18px;
-}
-
-.card h3 {
-  font-size: 21px;
-  margin-bottom: 10px;
-}
-
-.card p {
-  color: #9eafc3;
-}
-
-.tags {
-  margin-top: 18px;
-}
-
-.tag {
-  display: inline-block;
-  border: 1px solid #315273;
-  border-radius: 50px;
-  padding: 5px 10px;
-  margin: 3px;
-  font-size: 12px;
-  color: #b9d9ff;
-}
-
-.workflow {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-}
-
-.step {
-  background: #0d1c2e;
-  border: 1px solid #20344d;
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.step-number {
-  color: #55a8ff;
-  font-weight: bold;
-}
-
-.step strong {
-  display: block;
-  margin: 5px 0;
-}
-
-.step span {
-  color: #9eafc3;
-  font-size: 14px;
-}
-
-footer {
-  border-top: 1px solid #20344d;
-  padding: 30px 0;
-  color: #7f92a8;
-  font-size: 13px;
-}
-
-@media (max-width: 700px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .workflow {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  nav div:last-child {
-    display: none;
-  }
-}
-
-@media (max-width: 450px) {
-  .workflow {
-    grid-template-columns: 1fr;
-  }
-}
+:root{--bg:#07111f;--card:#0d1c2e;--card2:#101f33;--line:#233b56;--text:#f4f7fb;--muted:#a7b8cb;--blue:#5aaaff;--green:#65d6a0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,Helvetica,sans-serif;background:radial-gradient(circle at 80% 10%,#122746 0,#07111f 38%,#050c16 100%);color:var(--text);line-height:1.65}
+.container{width:90%;max-width:1120px;margin:auto}
+nav{padding:24px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,.05)}
+.logo{font-weight:800;letter-spacing:.5px}
+nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:14px}
+nav a:hover{color:#fff}
+.hero{padding:95px 0 75px}
+.eyebrow{color:var(--blue);font-weight:800;text-transform:uppercase;letter-spacing:2.5px;font-size:12px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.03;margin:16px 0 24px;max-width:900px}
+.highlight{color:var(--blue)}
+.hero p{color:var(--muted);font-size:20px;max-width:800px}
+.buttons{margin-top:30px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 21px;border-radius:11px;text-decoration:none;font-weight:800}
+.primary{background:#fff;color:#07111f}.secondary{border:1px solid var(--line);color:#fff;background:#0b192b}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:50px;max-width:760px}
+.stat{border:1px solid var(--line);background:rgba(13,28,46,.65);border-radius:15px;padding:17px}
+.stat strong{display:block;font-size:20px}.stat span{color:var(--muted);font-size:13px}
+section{padding:68px 0}
+h2{font-size:34px;margin-bottom:10px}
+.intro{color:var(--muted);max-width:760px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:rgba(13,28,46,.9);border:1px solid var(--line);border-radius:18px;padding:26px;transition:.2s}
+.card:hover{transform:translateY(-3px);border-color:#3e6590}
+.card h3{font-size:21px;margin-bottom:9px}.card p{color:var(--muted)}
+.tags{margin:17px 0}.tag{display:inline-block;border:1px solid #315273;border-radius:999px;padding:4px 9px;margin:3px;font-size:12px;color:#bddbfa}
+.details{display:block;margin-top:17px;color:var(--blue);text-decoration:none;font-weight:800}
+.details:hover{text-decoration:underline}
+.project-detail{padding:22px;border-radius:16px;background:#091626;border:1px solid var(--line);margin-top:16px}
+.project-detail h3{margin-bottom:8px}.project-detail p{color:var(--muted)}
+.workflow{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.step{background:rgba(13,28,46,.85);border:1px solid var(--line);border-radius:15px;padding:20px}
+.num{color:var(--blue);font-weight:900;font-size:12px}.step strong{display:block;margin:5px 0}.step span{color:var(--muted);font-size:14px}
+.stack{display:flex;flex-wrap:wrap;gap:9px}
+.stack .tag{font-size:13px;padding:7px 12px}
+.callout{background:linear-gradient(135deg,#0d223a,#111d35);border:1px solid #2b4d70;border-radius:20px;padding:30px}
+.callout p{color:var(--muted);max-width:780px}
+footer{border-top:1px solid var(--line);padding:30px 0 45px;color:#8194aa;font-size:13px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.workflow{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}nav .links{display:none}}
+@media(max-width:450px){.workflow,.stats{grid-template-columns:1fr}h1{font-size:44px}.hero{padding-top:70px}}
 </style>
 </head>
-
 <body>
-
 <div class="container">
 
 <nav>
   <div class="logo">JUNNEL FUENTES</div>
-
-  <div>
+  <div class="links">
     <a href="#work">Work</a>
     <a href="#automation">Automation</a>
     <a href="#stack">Stack</a>
+    <a href="#contact">Contact</a>
   </div>
 </nav>
 
 <header class="hero">
-
-  <div class="label">AI + Automation Specialist</div>
-
-  <h1>
-    Turning repetitive business processes into
-    <span class="highlight">working systems.</span>
-  </h1>
-
-  <p>
-    I build practical web-based business systems, integrations,
-    workflows and AI-assisted processes that connect data,
-    people and tools.
-  </p>
-
+  <div class="eyebrow">AI + Automation Specialist</div>
+  <h1>Turning repetitive business processes into <span class="highlight">working systems.</span></h1>
+  <p>I build practical web-based business systems, integrations, workflows and AI-assisted processes that connect data, people and tools.</p>
   <div class="buttons">
-    <a class="btn primary" href="#work">View My Work</a>
-
-    <a class="btn secondary"
-       href="https://github.com/junnelfuentes13-hub"
-       target="_blank">
-       GitHub
-    </a>
+    <a class="btn primary" href="#work">Explore My Work ↓</a>
+    <a class="btn secondary" href="https://github.com/junnelfuentes13-hub" target="_blank" rel="noopener">GitHub ↗</a>
   </div>
-
+  <div class="stats">
+    <div class="stat"><strong>Business-first</strong><span>Automation designed around real operational needs</span></div>
+    <div class="stat"><strong>API + Webhooks</strong><span>Connecting systems and moving data between tools</span></div>
+    <div class="stat"><strong>AI-assisted</strong><span>Using AI to streamline communication and operations</span></div>
+  </div>
 </header>
 
-
 <section id="work">
-
 <h2>Selected Work</h2>
-
-<p class="intro">
-Examples of business systems, automation workflows and
-digital solutions I have worked on. Client-sensitive
-information is intentionally excluded.
-</p>
+<p class="intro">A high-level portfolio of business systems and workflow projects. Sensitive client information and proprietary implementation details are intentionally excluded.</p>
 
 <div class="grid">
 
-<div class="card">
-
+<article class="card">
 <h3>Business Management Systems</h3>
+<p>Web-based systems designed to streamline inventory, orders, expenses, customer records and operational reporting.</p>
+<div class="tags"><span class="tag">Inventory</span><span class="tag">Orders</span><span class="tag">Dashboards</span></div>
+<a class="details" href="#business-details">View project details →</a>
+</article>
 
-<p>
-Web-based management systems designed to streamline
-inventory, orders, expenses, customer records and
-operational reporting.
-</p>
+<article class="card">
+<h3>Multi-Branch Management</h3>
+<p>Centralized workflows for businesses operating across multiple branches, improving visibility and operational control.</p>
+<div class="tags"><span class="tag">Multi-Branch</span><span class="tag">Centralized Data</span><span class="tag">Reporting</span></div>
+<a class="details" href="#branch-details">View project details →</a>
+</article>
 
-<div class="tags">
-<span class="tag">Inventory</span>
-<span class="tag">Orders</span>
-<span class="tag">Dashboards</span>
+<article class="card">
+<h3>Lead Capture & Messaging</h3>
+<p>Customer lead-capture workflows using webhooks and connected systems to reduce manual response and follow-up work.</p>
+<div class="tags"><span class="tag">Webhooks</span><span class="tag">Lead Capture</span><span class="tag">Messaging</span></div>
+<a class="details" href="#lead-details">View project details →</a>
+</article>
+
+<article class="card">
+<h3>Custom Business Platforms</h3>
+<p>Custom web applications translating real operational requirements into practical digital workflows.</p>
+<div class="tags"><span class="tag">Web Apps</span><span class="tag">Automation</span><span class="tag">UX</span></div>
+<a class="details" href="#platform-details">View project details →</a>
+</article>
+
+</div>
+
+<div id="business-details" class="project-detail">
+<h3>Business Management Systems</h3>
+<p>Designed workflows around inventory, orders, expenses and customer operations, with an emphasis on reducing manual tracking and giving users a clearer operational view.</p>
+</div>
+<div id="branch-details" class="project-detail">
+<h3>Multi-Branch Management</h3>
+<p>Structured centralized processes so branch-level activities can be managed consistently while maintaining consolidated visibility for management.</p>
+</div>
+<div id="lead-details" class="project-detail">
+<h3>Lead Capture & Messaging</h3>
+<p>Worked with webhook-driven flows and messaging concepts to capture customer inquiries, pass information between systems and support faster follow-up.</p>
+</div>
+<div id="platform-details" class="project-detail">
+<h3>Custom Business Platforms</h3>
+<p>Translated business requirements into responsive web interfaces, operational logic and connected data workflows suitable for day-to-day use.</p>
+</div>
+</section>
+
+<section id="automation">
+<h2>Automation Approach</h2>
+<p class="intro">I start with the business problem, then design the workflow around reliable inputs, clear rules, useful outputs and maintainability.</p>
+<div class="workflow">
+<div class="step"><div class="num">01</div><strong>Map</strong><span>Understand the current process and identify repetitive work.</span></div>
+<div class="step"><div class="num">02</div><strong>Connect</strong><span>Connect applications, databases, APIs and webhooks.</span></div>
+<div class="step"><div class="num">03</div><strong>Automate</strong><span>Automate repetitive data, notifications and operational actions.</span></div>
+<div class="step"><div class="num">04</div><strong>Test & Improve</strong><span>Check edge cases, troubleshoot failures and optimize reliability.</span></div>
+</div>
+</section>
+
+<section id="stack">
+<h2>Tools & Technologies</h2>
+<p class="intro">Technologies and platforms used across my projects and workflow development.</p>
+<div class="card stack">
+<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+<span class="tag">APIs</span><span class="tag">Webhooks</span><span class="tag">Google Sheets</span>
+<span class="tag">Supabase</span><span class="tag">Vercel</span><span class="tag">Netlify</span>
+<span class="tag">AI Tools</span><span class="tag">Database Workflows</span><span class="tag">Business Automation</span>
+</div>
+</section>
+
+<section id="contact">
+<div class="callout">
+<h2>Let's Build Something Useful</h2>
+<p>I enjoy identifying repetitive work, connecting systems and turning manual processes into reliable digital workflows. My focus is practical business impact, clean implementation and continuous improvement.</p>
+<div class="buttons"><a class="btn primary" href="https://github.com/junnelfuentes13-hub" target="_blank" rel="noopener">View GitHub ↗</a></div>
+</div>
+</section>
+
+<footer>© 2026 Junnel Fuentes · AI & Automation Specialist</footer>
+</div>
+</body>
+</html>
